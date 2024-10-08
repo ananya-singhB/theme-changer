@@ -4,7 +4,7 @@ export const Theme = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+    <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className={theme}>
       {theme}
     </button>
   );
