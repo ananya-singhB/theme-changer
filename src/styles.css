@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -17,4 +21,20 @@
 
 .light {
   background-color: whitesmoke;
+}
+
+button {
+  padding: 10px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+  border: 0;
+  border-radius: 5px;
+}
+
+.dark button{
+  background-color: aliceblue;
+}
+
+.light button {
+  background-color: rgb(39, 31, 31);
+  color: white;
 }
